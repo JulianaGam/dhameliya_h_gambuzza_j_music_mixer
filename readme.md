@@ -1,7 +1,6 @@
 # Music Mixer assignment 
 A demonstration of javascript basics, HTML and CSS implementing the drag and drop functionality, syncing and playing audio clips, and triggering animations.
 
-
 ## Installation
 Not need it. Download the Zip file.
 

@@ -2,8 +2,7 @@
 
 In this assignment we will create a music mixer that allows users to create dynamic 
 audio-based experiences through drag and drop. This project written in HTML, CSS 
-and JavaScript allows users to drag-and-drop audio loading and  
-triggers for sound playback when appropriate and animations.
+and JavaScript allows users to drag-and-drop audio loading and triggers for sound playback when appropriate and animations.
 
 
 ## Installation

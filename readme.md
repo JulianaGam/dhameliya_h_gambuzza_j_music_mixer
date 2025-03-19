@@ -18,7 +18,7 @@ Open the Index file in the browser of preference.
 January 17, 2025
 
 ## Credits
-Hansini Dhameliya
+Harlowe Dhameliya
 Juliana Gambuzza
 
 ## License

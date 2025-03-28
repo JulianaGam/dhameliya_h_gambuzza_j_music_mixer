@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[url(../images/png/spookycastle_spookycastle-01.jpg)] bg-no-repeat bg-cover bg-center">
+    <header class="h-fit grid grid-cols-12 gap-4 bg-[#222343] h-[72px]">
+                <div class="col-start-1 h-fit"><object class="w-[240px] h-[120px] ml-[16px]" data="../images/svg/harry_potter_logo.svg" type="image/svg+xml"></object></div>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" stroke-width="2.5" stroke="#EEEEEE" fill="none" class="col-start-12 mt-[22px] ml-[22px] duration-300 transform transition-all" style="width: 28px; height: 28px;"><path d="M7.49 26V7.5h18.5M56.51 26V7.5h-18.5M7.53 38v18.5h18.49M56.51 38v18.5h-18.5"></path></svg>
+    </header>
+    <main>
+        <h1 class="hidden">Welcome to Harry Potter Themed Mixer!</h1>
+        <section class="grid grid-cols-12 gap-4">
+            <h2 class="hidden">Draggable Instruments</h2>
+            <p class=" bg-[#222343] p-[12px]  text-[24px] text-[#EEEEEE] text-center mt-[100px] col-span-3 col-start-2">1. Drag and drop the characters into the boxes. Each character represents an instrument from Hedwig’s Theme.
+
+                <br>2. Once you have placed your chosen characters, press the "Play" button.
+                
+                <br>3. Enjoy creating this magical musical mix! 🎵✨
+
+                </p>
+            <div  class="col-start-3 col-span-8 mt-[100px]">
+                <div id="instruments" class="flex justify-between bg-[#222343] p-[24px]">
+                    <img id="piano" class="size-[64px]" src="../images/svg/dobbie.svg">
+                    <img id="flute" class="size-[64px]" src="../images/svg/dumbledore.svg">
+                    <img id="violin" class="size-[64px]" src="../images/svg/harry.svg">
+                    <img id="harp" class="size-[64px]" src="../images/svg/hermione.svg">
+                    <img id="xylophone" class="size-[64px]" src="../images/svg/ron.svg">
+                    <img id="tongueDrum" class="size-[64px] text-center" src="../images/svg/voldemort.svg">
+                </div>
+            </div>
+        </section>
+        <section class="grid grid-cols-12 gap-4 mt-[64px]">
+            <h2 class="hidden">Intrument Drop Zones</h2>
+            <div class="bg-[#F6D578] p-[16px] col-start-4 col-span-6 flex justify-between rounded-[4px]">
+                <div class="dropZone border-dashed border-[2px] border-[#505050] size-[100px]"></div>
+                <div class="dropZone border-dashed border-[2px] border-[#505050] size-[100px] mx-[32px]"></div>
+                <div class="dropZone border-dashed border-[2px] border-[#505050] size-[100px]"></div>
+                <div class="dropZone border-dashed border-[2px] border-[#505050] size-[100px] mx-[32px]"></div>
+                <div class="dropZone border-dashed border-[2px] border-[#505050] size-[100px]"></div>
+                <div class="dropZone border-dashed border-[2px] border-[#505050] size-[100px] ml-[32px]"></div>
+            </div>
+        </section>
+        <section class="grid grid-cols-12 gap-4 mt-[8px]">
+            <h2 class="hidden">Controls</h2>
+            <div class="col-start-5 col-span-4 flex justify-around py-[32px] bg-[#FFFFC7]">
+                <div class="cursor-pointer" id="muteButton">Mute</div>
+                <div class="cursor-pointer" id="playButton">Play</div>
+                <div class="cursor-pointer" id="pauseButton">Pause</div>
+                <div class="cursor-pointer" id="resetButton">Reset</div>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+    <script src="main.js"></script>
+</body>
+</html>
